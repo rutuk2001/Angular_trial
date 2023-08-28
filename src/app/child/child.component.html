@@ -1,0 +1,11 @@
+<h1>Fruit List</h1>
+<ul>
+  <li *ngFor="let item of data">{{ item }}</li>
+</ul>
+<p>custome directive</p>
+<p appBluebackground>Hello World!</p>
+<!-- async pipe -->
+<div><code>observable|async</code>: Time: {{ time | async }}</div>
+
+<!-- percentage pipr -->
+<p>B: {{ b | percent : "4.3-5" }}</p>

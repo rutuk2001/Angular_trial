@@ -1,0 +1,5 @@
+<app-nav-bar></app-nav-bar>
+<input #newFruit type="text" placeholder="Enter a new fruit" />
+<button (click)="addFruit(newFruit.value)">Add Fruit</button>
+<h1>List of fruits</h1>
+<app-child [data]="fruits"></app-child>
